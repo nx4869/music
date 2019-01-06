@@ -1,0 +1,79 @@
+header {
+  width: 100%;
+  height: 2rem;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+header input {
+  width: 70%;
+  height: 1.5rem;
+  margin-top: 0.25rem;
+  margin-left: 7%;
+  padding-left: 0.5rem;
+}
+
+header button {
+  width: 15%;
+  height: 1.5rem;
+  background-color: rgba(64, 158, 255, 1);
+  border: 0;
+  border-radius: 4px;
+}
+
+.music-list {
+  margin-top: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+dl {
+  width: 100%;
+  height: 3.5rem;
+  position: relative;
+}
+
+dt {
+  float: left;
+  width: 3rem;
+  height: 3rem;
+  /*margin-left: 0.3rem;*/
+  position: absolute;
+  left: 0.3rem;
+}
+
+dd{
+  line-height: 1rem;
+  float: left;
+  /*margin-left: 0.3rem;*/
+  position: absolute;
+  left: 4rem;
+}
+
+.author {
+  font-size: 14px;
+  color: silver;
+  line-height: 1.5rem;
+  width: 10rem;
+  display: block;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+
+.title {
+  display: block;
+  font-size: 16px;
+  line-height: 1.5rem;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+
+img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+

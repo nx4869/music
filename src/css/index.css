@@ -1,0 +1,22 @@
+.body {
+  width: 100%;
+  height: 100vh;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  background-color: white;
+  z-index: 999;
+  border-top: 1px solid silver;
+}
+
+.link a{
+  flex: 1;
+  text-align: center;
+}

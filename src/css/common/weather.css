@@ -1,0 +1,18 @@
+header {
+  width: 100%;
+  height: 2rem;
+  background-color: rgba(64, 158, 255, 0.8);
+  line-height: 2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.weather {
+  display: flex;
+}
+
+.weather ul {
+  flex: 1;
+  text-align: center;
+}
